@@ -3,11 +3,10 @@ import React, {
   DetailedHTMLProps,
   ReactNode,
 } from "react";
-import Image from "next/image";
 
 import cn from "classnames";
-import Arrow from "../../../public/assets/arrow.svg";
 import styles from "./Button.module.scss";
+import ArrowSvg from "../../../public/assets/arrow.svg";
 
 type AppearanceType = "primary" | "ghost";
 type ArrowType = "right" | "down" | "none";
@@ -39,7 +38,7 @@ const ButtonContent = (children: ReactNode, arrow: ArrowType) => {
               [styles.down]: arrow == "down",
             })}
           >
-            <Image src={Arrow} alt="arrow" />
+            <ArrowSvg />
           </span>
         )}
       </>
