@@ -6,7 +6,7 @@ import React, {
 
 import cn from "classnames";
 import styles from "./Button.module.scss";
-import ArrowSvg from "../../../public/assets/arrow.svg";
+import ArrowSvg from "@/assets/arrow.svg";
 
 type AppearanceType = "primary" | "ghost";
 type ArrowType = "right" | "down" | "none";

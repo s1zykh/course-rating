@@ -1,7 +1,7 @@
 import React, { DetailedHTMLProps, HTMLAttributes, ReactNode } from "react";
 
 import cn from "classnames";
-import styles from "./Button.module.scss";
+import styles from "./Text.module.scss";
 
 type SizeType = "s" | "m" | "l";
 

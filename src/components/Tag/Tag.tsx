@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 import cn from "classnames";
 
-import styles from "./Button.module.scss";
+import styles from "./Tag.module.scss";
 
 type SizeType = "s" | "m";
 type ColorType = "ghost" | "red" | "grey" | "green" | "primary";
